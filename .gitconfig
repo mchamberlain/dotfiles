@@ -1,0 +1,20 @@
+[core]
+	editor = vim
+[alias]
+    aa = add --all
+    ap = add --patch
+    ca = commit --amend
+	ci = commit -v
+	st = status
+    co = checkout
+    up = !git fetch origin && git rebase origin/master
+[merge]
+    ff = only
+[color]
+	ui = auto
+[push]
+    default = simple
+[include]
+    path = .gitconfig.local
+[commit]
+    template = ~/.gitmessage

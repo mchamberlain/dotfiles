@@ -1,0 +1,10 @@
+[Unit]
+Description=Run kpartx to get RAID partitions
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/kpartx -a /dev/mapper/isw_dceghbdigh_SSD_RAID
+ExecStart=/usr/bin/kpartx -a /dev/mapper/isw_bbeijbgeed_DATA
+
+[Install]
+WantedBy=multi-user.target

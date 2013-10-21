@@ -1,0 +1,8 @@
+# Sources the latest version of Houdini installed under
+# /usr/local/houdini
+
+pushd /usr/local/houdini &> /dev/null
+pushd `ls -d * | sort -V -r | head -n 1` &> /dev/null
+source houdini_setup
+popd &> /dev/null
+popd &> /dev/null
