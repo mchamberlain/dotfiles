@@ -5,6 +5,7 @@
 		"BracketHighlighter",
 		"CMake",
 		"Goto Documentation",
+		"Jedi - Python autocompletion",
 		"Package Control",
 		"SublimeCodeIntel",
 		"SublimeLinter"
