@@ -8,7 +8,7 @@ and .config/sublime-text-# directories.
 To compile the Clang plugin for the YouCompleteMe vim plugin run:
 
     $ ./build_plugins.sh
-    
+
 You must have a recent version of CMake and preferably the latest (3.3+)
 version of LLVM/Clang installed on your system for this to work.
 
@@ -20,3 +20,11 @@ created. To run the install script:
 
     $ ./install.sh
 
+Influences
+==========
+
+Some of the files and settings were influenced by (taken from) the following
+repos:
+
+    * https://github.com/mbrochh/vim-as-a-python-ide
+    * https://github.com/thoughtbot/dotfiles
