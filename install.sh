@@ -53,6 +53,7 @@ link "$PWD/.vim/autoload" "$HOME/.vim/autoload"
 link "$PWD/.vim/bundle" "$HOME/.vim/bundle"
 link "$PWD/.vim/colors" "$HOME/.vim/colors"
 link "$PWD/.vim/ftplugin" "$HOME/.vim/ftplugin"
+link "$PWD/.vim/.ycm_extra_conf.py" "$HOME/.vim/.ycm_extra_conf.py"
 
 mkdir -p "$HOME/.config/sublime-text-2/Packages/User"
 link "$PWD/.config/sublime-text-2/Packages/User/Preferences.sublime-settings" "$HOME/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
@@ -65,12 +66,6 @@ link "$PWD/.config/sublime-text-3/Packages/User/Preferences.sublime-settings" "$
 link "$PWD/.config/sublime-text-3/Packages/User/Package Control.sublime-settings" "$HOME/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 link "$PWD/.config/sublime-text-3/Packages/tomorrow-theme" "$HOME/.config/sublime-text-3/Packages/tomorrow-theme"
 link "$PWD/.config/sublime-text-3/Packages/Theme - Soda" "$HOME/.config/sublime-text-3/Packages/Theme - Soda"
-
-link "$PWD/.config/compton.conf" "$HOME/.config/compton.conf"
-
-link "$PWD/.config/openbox" "$HOME/.config/openbox"
-
-link "$PWD/.config/obmenu-generator" "$HOME/.config/obmenu-generator"
 
 popd > /dev/null
 

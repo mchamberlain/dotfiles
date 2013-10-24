@@ -1,6 +1,4 @@
-" Sample .vimrc file by Martin Brochhaus
-" Presented at PyCon APAC 2012
-
+" .vimrc file forked from Martin Brochhaus' file presented at PyCon APAC 2012
 
 " Automatic reloading of .vimrc
 autocmd! bufwritepost .vimrc source %
@@ -192,4 +190,9 @@ let NERDTreeIgnore=['\.vim$', '\~$', '\.pyc$', '\.swp$', '\build/$']
 let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 map <F3> :NERDTreeToggle<CR>
+
+" YouCompleteMe config
+let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
+nnoremap <leader>g :YcmCompleter GoToDefinitionElseDeclaration<CR>
+nnoremap <leader>gd :YcmCompleter GoToDeclaration<CR>
 
