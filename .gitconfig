@@ -8,8 +8,6 @@
 	st = status
     co = checkout
     up = !git fetch origin && git rebase origin/master
-[merge]
-    ff = only
 [color]
 	ui = auto
 [push]
