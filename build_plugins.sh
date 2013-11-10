@@ -24,4 +24,4 @@
 mkdir -p build/ycm_build
 cd build/ycm_build
 cmake -G "Unix Makefiles" -DUSE_SYSTEM_LIBCLANG=ON . ../../.vim/bundle/YouCompleteMe/cpp
-make ycm_core -j10
+make ycm_support_libs -j10
