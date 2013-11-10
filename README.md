@@ -26,5 +26,5 @@ Influences
 Some of the files and settings were influenced by (taken from) the following
 repos:
 
-    * https://github.com/mbrochh/vim-as-a-python-ide
-    * https://github.com/thoughtbot/dotfiles
+* https://github.com/mbrochh/vim-as-a-python-ide
+* https://github.com/thoughtbot/dotfiles
