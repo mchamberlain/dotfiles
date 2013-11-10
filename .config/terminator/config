@@ -1,0 +1,23 @@
+[global_config]
+  tab_position = bottom
+[keybindings]
+[profiles]
+  [[default]]
+    palette = "#000000:#912226:#778900:#ae7b00:#1d2594:#682a9b:#2b6651:#929593:#666666:#cc6666:#b5bd68:#f0c674:#81a2be:#b294bb:#8abeb7:#ecebec"
+    copy_on_selection = True
+    background_image = None
+    background_darkness = 0.89
+    background_type = transparent
+    use_system_font = False
+    foreground_color = "#c5c8c6"
+    font = Source Code Pro Medium 11
+    background_color = "#1d1f21"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

@@ -67,6 +67,8 @@ link "$PWD/.config/sublime-text-3/Packages/User/Package Control.sublime-settings
 link "$PWD/.config/sublime-text-3/Packages/tomorrow-theme" "$HOME/.config/sublime-text-3/Packages/tomorrow-theme"
 link "$PWD/.config/sublime-text-3/Packages/Theme - Soda" "$HOME/.config/sublime-text-3/Packages/Theme - Soda"
 
+link "$PWD/.config/terminator/config" "$HOME/.config/terminator/config"
+
 popd > /dev/null
 
 unset -f link
