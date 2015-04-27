@@ -7,6 +7,7 @@
 	[
 		"BracketHighlighter",
 		"CMake",
+		"Git Commit Message Syntax",
 		"Jedi - Python autocompletion",
 		"Package Control",
 		"Python Flake8 Lint"

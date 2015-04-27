@@ -1,5 +1,5 @@
 [core]
-    editor = vim
+    editor = sublime_text -w
 [alias]
     aa = add --all
     ap = add --patch
