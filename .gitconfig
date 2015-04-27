@@ -1,15 +1,15 @@
 [core]
-	editor = vim
+    editor = vim
 [alias]
     aa = add --all
     ap = add --patch
     ca = commit --amend
-	ci = commit -v
-	st = status
+    ci = commit -v
+    st = status
     co = checkout
     up = !git fetch origin && git rebase origin/master
 [color]
-	ui = auto
+    ui = auto
 [push]
     default = simple
 [include]

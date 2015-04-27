@@ -86,4 +86,4 @@ if (( ${+terminfo[smkx]} )) && (( ${+terminfo[rmkx]} )); then
     zle -N zle-line-finish
 fi
 
-export PATH=~/bin:$PATH
+source $HOME/.zshrc.local
