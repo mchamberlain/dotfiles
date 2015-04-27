@@ -48,12 +48,17 @@ link "$PWD/issue" "$HOME/issue"
 
 link "$PWD/bin/hs" "$HOME/bin/hs"
 
+mkdir -p "$HOME/.themes"
+link "$PWD/.themes/Numix" "$HOME/.themes/Numix"
+
+mkdir -p "$HOME/.icons"
+link "$PWD/.icons/Numix-uTouch" "$HOME/.icons/Numix-uTouch"
+
 mkdir -p "$HOME/.vim"
 link "$PWD/.vim/autoload" "$HOME/.vim/autoload"
 link "$PWD/.vim/bundle" "$HOME/.vim/bundle"
 link "$PWD/.vim/colors" "$HOME/.vim/colors"
 link "$PWD/.vim/ftplugin" "$HOME/.vim/ftplugin"
-link "$PWD/.vim/.ycm_extra_conf.py" "$HOME/.vim/.ycm_extra_conf.py"
 
 mkdir -p "$HOME/.config/sublime-text-2/Packages/User"
 link "$PWD/.config/sublime-text-2/Packages/User/Preferences.sublime-settings" "$HOME/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"

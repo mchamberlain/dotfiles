@@ -31,3 +31,9 @@
 [submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule ".themes/Numix"]
+	path = .themes/Numix
+	url = https://github.com/shimmerproject/Numix.git
+[submodule "submodules/numix-icon-theme-utouch"]
+	path = submodules/numix-icon-theme-utouch
+	url = https://github.com/numixproject/numix-icon-theme-utouch.git
