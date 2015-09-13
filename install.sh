@@ -60,6 +60,10 @@ link "$PWD/.vim/bundle" "$HOME/.vim/bundle"
 link "$PWD/.vim/colors" "$HOME/.vim/colors"
 link "$PWD/.vim/ftplugin" "$HOME/.vim/ftplugin"
 
+for f in `find "$PWD/.config/plank" -type f -printf "%P\n"`; do
+    link "$PWD/.config/plank/$f" "$HOME/.config/plank/$f"
+done
+
 mkdir -p "$HOME/.config/sublime-text-2/Packages/User"
 link "$PWD/.config/sublime-text-2/Packages/User/Preferences.sublime-settings" "$HOME/.config/sublime-text-2/Packages/User/Preferences.sublime-settings"
 link "$PWD/.config/sublime-text-2/Packages/User/Package Control.sublime-settings" "$HOME/.config/sublime-text-2/Packages/User/Package Control.sublime-settings"
@@ -73,6 +77,8 @@ link "$PWD/.config/sublime-text-3/Packages/tomorrow-theme" "$HOME/.config/sublim
 link "$PWD/.config/sublime-text-3/Packages/Theme - Soda" "$HOME/.config/sublime-text-3/Packages/Theme - Soda"
 
 link "$PWD/.config/terminator/config" "$HOME/.config/terminator/config"
+
+link "$PWD/.config/tint2/tint2rc" "$HOME/.config/tint2/tint2rc"
 
 popd > /dev/null
 
